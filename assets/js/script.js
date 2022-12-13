@@ -4,7 +4,28 @@
 
 // TODO: Add code to display the current date in the header of the page.
   var currentDate = dayjs().format('dddd D/MMMM/YYYY');
+  var currentHour = JSON.parse(dayjs().format('H'));
   
+  $('.description').each(function(){
+    var descriptionTime = $(this).parent().attr('id');
+    // Reloading local storage
+    descriptionTime = JSON.parse(descriptionTime.split('hour-')[1]);
+    console.log('current time is', descriptionTime)
+
+    if (currentHour === descriptionTime){
+      $(this).parent().addClass('present');
+    }
+
+    else if (currentHour > descriptionTime){
+      $(this).parent().addClass('past');
+    }
+
+    else if (currentHour < descriptionTime){
+      $(this).parent().addClass('future');
+    }
+   
+  })
+
   $('#currentDay').text(currentDate);
 
 
@@ -15,14 +36,10 @@
     localStorage.setItem(time, description);
   })
 
-
-var currentHour = moment().hour();
-
 $('.time-block').each(function(){
   
 })
 
-$(function () {
   // TODO: Add a listener for click events on the save button. This code should
   // use the id in the containing time-block as a key to save the user input in
   // local storage. HINT: What does `this` reference in the click listener
@@ -40,5 +57,4 @@ $(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   //
-  
-});
+
