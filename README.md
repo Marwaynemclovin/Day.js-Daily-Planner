@@ -34,6 +34,12 @@ Feel free to download or clone via your favourite code editor!
 └── index.html
 ```
 
+## Credits and Resources
+Start code was developed and pushed online by 3 legends with links below: 
+George Yoo: https://github.com/Georgeyoo
+Matt Fyke: https://github.com/mfyke
+Courtney Mathena: https://github.com/cmathena2u
+
 ## License
 Copyright (c) [2022] [Marwin Manlangit]
 
