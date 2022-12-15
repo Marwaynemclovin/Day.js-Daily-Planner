@@ -13,13 +13,12 @@ This is a simple calendary application which allows users to save events for eac
 [License](#License)
 
 ## Screenshots of Application
-[index.html]
-![Screen Shot 2022-12-08 at 8 54 05 pm](https://user-images.githubusercontent.com/112296194/206422929-f5fa3141-4bd8-477a-8779-a8d8f8ffe660.png)
+[Top of Application]
+<img width="1460" alt="Screen Shot 2022-12-15 at 5 31 37 pm" src="https://user-images.githubusercontent.com/112296194/207792862-b0433e9f-cb5e-4bd8-a747-ca1c76f8b648.png">
 
-[game.html]
-![Screen Shot 2022-12-08 at 8 54 11 pm](https://user-images.githubusercontent.com/112296194/206422971-5ed165d8-f823-4c09-b04b-5bf5092bc07f.png)
+[Bottom of Application]
+<img width="1468" alt="Screen Shot 2022-12-15 at 5 34 52 pm" src="https://user-images.githubusercontent.com/112296194/207793052-119cf70f-1983-42be-9ed2-7d7ca995ca62.png">
 
-[highscores.html]
 
 ## Local Installation
 Feel free to download or clone via your favourite code editor!
@@ -55,4 +54,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
