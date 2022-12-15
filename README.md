@@ -35,9 +35,9 @@ Feel free to download or clone via your favourite code editor!
 ```
 
 ## Credits and Resources
-Start code was developed and pushed online by 3 legends with links below: 
-George Yoo: https://github.com/Georgeyoo
-Matt Fyke: https://github.com/mfyke
+Start code was developed and pushed online by 3 legends with links below: <br>
+George Yoo: https://github.com/Georgeyoo <br>
+Matt Fyke: https://github.com/mfyke <br>
 Courtney Mathena: https://github.com/cmathena2u
 
 ## License
